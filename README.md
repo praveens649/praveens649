@@ -1,6 +1,5 @@
 ## Hi there 👋
-![Image](https://github.com/user-attachments/assets/59ce2dd3-62f0-4082-a477-fad9b07a1cfc)
-
+![Image](https://github.com/user-attachments/assets/9f08d59c-a53d-4079-8500-09a21755909f)
 <!--
 **praveens649/praveens649** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
