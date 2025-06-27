@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=praveens649)]
+
 <!--
 **praveens649/praveens649** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
