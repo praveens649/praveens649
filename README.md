@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hi+there;I'm+Praveen;Crafting+intelligent;Scalable+websites/?center=true/?width=500)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?width=500&centre=true&lines=Hi+there;I'm+Praveen;Crafting+intelligent;Scalable+websites)](https://git.io/typing-svg)
 
 ![Image](https://github.com/user-attachments/assets/9f08d59c-a53d-4079-8500-09a21755909f)
 <!--
