@@ -6,4 +6,4 @@
 ![My GitHub Game](game.gif)
 
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=praveens649&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=praveens649&show_icons=true&theme=radical)          [![GitHub Streak](https://streak-stats.demolab.com/?user=praveens649&theme=radical)](https://git.io/streak-stats)
