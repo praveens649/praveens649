@@ -4,3 +4,6 @@
 ![Image](https://github.com/user-attachments/assets/9f08d59c-a53d-4079-8500-09a21755909f)
 
 ![My GitHub Game](game.gif)
+
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=praveens649&show_icons=true&theme=radical)
