@@ -1,5 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?&lines=Hi+there+I'm+Praveen)](https://git.io/typing-svg)
-  <a href="https://your-resume-link.pdf" target="_blank">
+  <a href="https://drive.google.com/drive/folders/1-ASbdcq0pSt1eJx3oF1IsZhn44ZQOsS7" target="_blank">
     <img src="https://img.shields.io/badge/Download%20Resume-000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 <p align="left">
