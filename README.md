@@ -8,11 +8,6 @@
 
 ![My GitHub Game](game.gif)
 
-![](https://github-readme-stats.shion.dev/api?username=anasmohammed361&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=anasmohammed361&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=anasmohammed361&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=anasmohammed361&theme=aura_dark&no-frame=false&no-bg=false&margin-w=4)
 
 
