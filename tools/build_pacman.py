@@ -52,6 +52,14 @@ LABEL_FONT = 12
 # Share of the way from the card's background to its foreground, per level.
 LEVEL_MIX = (0.10, 0.30, 0.50, 0.72, 1.0)
 
+# Spider-Man inspired palette:
+# Level 0 (empty): Dark navy/slate
+# Level 1: Deep crimson / maroon
+# Level 2: Spider-Man classic red
+# Level 3: Bright scarlet / neon red
+# Level 4: Electric web cyan / bright electric highlight
+SPIDERMAN_RAMP = ("#202633", "#6b1426", "#b91c1c", "#ef4444", "#38bdf8")
+
 # --- Timing (s) -------------------------------------------------------------
 STEP = 0.075               # time to cross one day
 INTRO = 1.5                # full calendar, Pac-Man waiting, before he moves
@@ -347,7 +355,7 @@ def month_labels(weeks: list[list]) -> list[tuple[int, str]]:
 def build(theme: str, cal: dict) -> str:
     c = THEMES[theme]
     weeks = cal["weeks"]
-    ramp = [mix(c["bg"], c["fg"], t) for t in LEVEL_MIX]
+    ramp = SPIDERMAN_RAMP
 
     left = MARGIN + LABEL_COL
     header_y = MARGIN + HEADER_FONT
