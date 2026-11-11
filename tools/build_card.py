@@ -26,7 +26,7 @@ ASCII_SRC = ROOT / "assets" / "ascii-art.txt"
 ASCII_SRC_LIGHT = ROOT / "assets" / "ascii-art-light.txt"
 STATS_SRC = ROOT / "cache" / "stats.json"
 
-BIRTHDATE = dt.date(2003, 8, 15)
+BIRTHDATE = dt.date(2005, 4, 22)
 
 # --- Type metrics -----------------------------------------------------------
 # Consolas advances 0.55em per glyph; the generic monospace fallback advances
@@ -76,22 +76,22 @@ THEMES = {
     },
 }
 
-TITLE = "praveen@spidey"
+TITLE = "praveen@649"
 
 INFO = [
-    ("OS", "Windows, Linux, Android"),
+    ("OS", "Windows, Ubuntu, Android"),
     ("Uptime", None),  # filled from BIRTHDATE
-    ("Host", "India"),
+    ("Host", "Tamil Nadu, Chennai"),
     ("Kernel", "Full Stack & AI Engineer"),
-    ("IDE", "VSCode, Cursor"),
+    ("IDE", "VSCode, Antigravity, Windsurf"),
     None,
-    ("Languages.Programming", "TypeScript, JS, Python, Java"),
-    ("Languages.Computer", "HTML, CSS, SQL, GraphQL, Solidity"),
+    ("Languages.Programming", "TypeScript, JS, Python"),
+    ("Languages.Computer", "HTML, CSS, SQL"),
     ("Languages.Real", "English, Tamil"),
     None,
     ("Focus.AI", "Agents, LLMs, MCP Automation"),
     ("Focus.Web", "Next.js, React, Node.js, Tailwind"),
-    ("Hobbies", "Web3, Open Source, 3D Web"),
+    ("Hobbies", "Open Source, Reverse Engineering, 3D Web"),
 ]
 
 CONTACT = [
