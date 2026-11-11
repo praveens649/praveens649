@@ -69,10 +69,10 @@ THEMES = {
     },
     "light": {
         "art_src": ASCII_SRC_LIGHT,
-        "bg": "#ffffff", "fg": "#c9d1d9", "art": "#24292f",
+        "bg": "#161b22", "fg": "#c9d1d9", "art": "#24292f",
         "key": "#F76E0A", "value": "#a5d6ff",
         "add": "#3fb950", "del": "#f85149", "dots": "#616e7f",
-        "panel_bg": "#161b22",
+        "art_bg": "#ffffff",
     },
 }
 
@@ -335,17 +335,12 @@ def build(theme: str) -> str:
         for i, line in enumerate(art)
     )
 
-    panel_bg_rect = ""
-    if "panel_bg" in c:
-        p_x = panel_x - GUTTER // 2
-        p_w = width - p_x
-        panel_bg_rect = f"""
-  <defs>
-    <clipPath id="panel-clip">
-      <rect width="{width}px" height="{height}px" rx="15"/>
-    </clipPath>
-  </defs>
-  <rect x="{p_x}px" y="0" width="{p_w}px" height="{height}px" fill="{c['panel_bg']}" clip-path="url(#panel-clip)"/>
+    art_bg_rect = ""
+    if "art_bg" in c:
+        art_box_y = art_y0 - art_font * 0.95
+        art_box_h = (len(art) - 1) * art_line + art_font * 1.3
+        art_bg_rect = f"""
+  <rect x="{MARGIN}px" y="{art_box_y:.2f}px" width="{ART_COL_WIDTH}px" height="{art_box_h:.2f}px" fill="{c['art_bg']}" rx="8"/>
 """
 
     return f"""<?xml version='1.0' encoding='UTF-8'?>
@@ -366,7 +361,7 @@ def build(theme: str) -> str:
 .cc {{fill: {c['dots']};}}
 text, tspan {{white-space: pre;}}
 </style>
-<rect width="{width}px" height="{height}px" fill="{c['bg']}" rx="15"/>{panel_bg_rect}
+<rect width="{width}px" height="{height}px" fill="{c['bg']}" rx="15"/>{art_bg_rect}
 <text fill="{c['art']}" font-size="{art_font:.2f}px" class="ascii">
 {art_tspans}
 </text>
