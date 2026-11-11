@@ -63,7 +63,7 @@ GUTTER = 18
 THEMES = {
     "dark": {
         "art_src": ASCII_SRC,
-        "bg": "#161b22", "fg": "#c9d1d9", "art": "#c9d1d9",
+        "bg": "#161b22", "fg": "#c9d1d9", "art": "#24292f",
         "key": "#F76E0A", "value": "#a5d6ff",
         "add": "#3fb950", "del": "#f85149", "dots": "#616e7f",
     },
