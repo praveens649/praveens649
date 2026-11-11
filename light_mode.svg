@@ -8,15 +8,22 @@
   font-display: swap;
   size-adjust: 109%;
 }
-.key {fill: #bc4c00;}
-.value {fill: #0550ae;}
-.title {fill: #bc4c00; font-weight: bold;}
-.addColor {fill: #1a7f37;}
-.delColor {fill: #cf222e;}
-.cc {fill: #8c959f;}
+.key {fill: #F76E0A;}
+.value {fill: #a5d6ff;}
+.title {fill: #F76E0A; font-weight: bold;}
+.addColor {fill: #3fb950;}
+.delColor {fill: #f85149;}
+.cc {fill: #616e7f;}
 text, tspan {white-space: pre;}
 </style>
 <rect width="1018px" height="551px" fill="#ffffff" rx="15"/>
+  <defs>
+    <clipPath id="panel-clip">
+      <rect width="1018px" height="551px" rx="15"/>
+    </clipPath>
+  </defs>
+  <rect x="438px" y="0" width="580px" height="551px" fill="#161b22" clip-path="url(#panel-clip)"/>
+
 <text fill="#24292f" font-size="11.70px" class="ascii">
 <tspan x="15" y="110.57">     .   .#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*...::.</tspan>
 <tspan x="15" y="123.56">         =@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*:.:::.</tspan>
@@ -46,7 +53,7 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="435.43">=+*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
 <tspan x="15" y="448.42">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
 </text>
-<text fill="#24292f" font-size="16px">
+<text fill="#c9d1d9" font-size="16px">
 <tspan x="447" y="31"><tspan class="title">praveen@spidey</tspan> -—————————————————————————————————————————-</tspan>
 <tspan x="447" y="51"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> </tspan><tspan class="cc">............................</tspan><tspan class="cc"> </tspan><tspan class="value">Windows, Linux, Android</tspan></tspan>
 <tspan x="447" y="71"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> </tspan><tspan class="cc">....................</tspan><tspan class="cc"> </tspan><tspan class="value" id="age_data">23 years, 2 months, 28 days</tspan></tspan>

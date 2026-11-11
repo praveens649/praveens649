@@ -69,9 +69,10 @@ THEMES = {
     },
     "light": {
         "art_src": ASCII_SRC_LIGHT,
-        "bg": "#ffffff", "fg": "#24292f", "art": "#24292f",
-        "key": "#bc4c00", "value": "#0550ae",
-        "add": "#1a7f37", "del": "#cf222e", "dots": "#8c959f",
+        "bg": "#ffffff", "fg": "#c9d1d9", "art": "#24292f",
+        "key": "#F76E0A", "value": "#a5d6ff",
+        "add": "#3fb950", "del": "#f85149", "dots": "#616e7f",
+        "panel_bg": "#161b22",
     },
 }
 
@@ -334,6 +335,19 @@ def build(theme: str) -> str:
         for i, line in enumerate(art)
     )
 
+    panel_bg_rect = ""
+    if "panel_bg" in c:
+        p_x = panel_x - GUTTER // 2
+        p_w = width - p_x
+        panel_bg_rect = f"""
+  <defs>
+    <clipPath id="panel-clip">
+      <rect width="{width}px" height="{height}px" rx="15"/>
+    </clipPath>
+  </defs>
+  <rect x="{p_x}px" y="0" width="{p_w}px" height="{height}px" fill="{c['panel_bg']}" clip-path="url(#panel-clip)"/>
+"""
+
     return f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="{width}px" height="{height}px"
      font-family="ConsolasFallback,Consolas,Menlo,monospace">
@@ -352,7 +366,7 @@ def build(theme: str) -> str:
 .cc {{fill: {c['dots']};}}
 text, tspan {{white-space: pre;}}
 </style>
-<rect width="{width}px" height="{height}px" fill="{c['bg']}" rx="15"/>
+<rect width="{width}px" height="{height}px" fill="{c['bg']}" rx="15"/>{panel_bg_rect}
 <text fill="{c['art']}" font-size="{art_font:.2f}px" class="ascii">
 {art_tspans}
 </text>
