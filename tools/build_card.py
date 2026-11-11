@@ -94,8 +94,8 @@ INFO = [
 ]
 
 CONTACT = [
-    ("Email", "praveens649@gmail.com"),
-    ("LinkedIn", "praveens649"),
+    ("Email", "praveenv649@gmail.com"),
+    ("LinkedIn", "praveen-s-bb41b8278"),
     ("Portfolio", "praveen-into-the-spidey-verse.vercel.app"),
 ]
 
